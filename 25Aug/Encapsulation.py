@@ -24,7 +24,7 @@ class BankAccount:
       print("Balance:", self.__balance)
 
 b = BankAccount(1234567890, 5000)
-b.__display_balance() 
+b.__display_balance() #can not be access give error that class has no attribute
 
 
 # protected

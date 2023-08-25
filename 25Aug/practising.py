@@ -5,6 +5,7 @@ for i in a:
 
 print(b)
 
+# list of all keys
 dict1 = {
     "one":1,
     "two":2,
@@ -25,8 +26,8 @@ student_ages = {
     "Charlie": 18,
     "David": 25
 }
-above_18_students = [name for name, age in student_ages.items() if age > 18]
-print(above_18_students)
+above_18_students = [{name:age} for name, age in student_ages.items() if age > 18]
+print(above_18_students[0]['Alice'])
 
 # list of tuples containing item of another list 
 names = ["Alice", "Bob", "Charlie"]
@@ -37,9 +38,20 @@ print(greetings)
 sentence = "This, is a, sample sentence, is a"
 word_frequency = {}
 words = sentence.split(',')
-a = [word_frequency.update({word: word_frequency.get(word, 0) + 1}) for word in words]
-print(a)
-
 for word in words:
     word_frequency[word] = word_frequency.get(word, 0) + 1
 print(word_frequency)
+
+
+list2 = [ ('apple' , 0), ('grape', 1), ('watermelon', 2), ('orange', 3)]
+dict2 = dict(list2)
+print(dict2)
+
+
+
+
+
+
+list1 = [1, 2, 2, 3, 4, 4, 5]
+sq = list(map(lambda x: x**2 , list1))
+print(sq)

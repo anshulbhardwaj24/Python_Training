@@ -55,8 +55,6 @@ class Bank:
     def CheckBalance(self):
         return '{} has {}'.format(self.name,self.balance)
 
-
-
 class Current_Acc(Bank):
     int_rate = 0.01
 
