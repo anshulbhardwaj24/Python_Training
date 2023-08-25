@@ -16,3 +16,4 @@ animals = [Dog(), Cat()]
 # Call the speak method on each object
 for animal in animals:
 	print(animal.speak())
+	
