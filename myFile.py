@@ -1,6 +1,6 @@
-#Sets
+#Setssasasasasafffffffffffffffffffffffffffffffffffffff
 a = {112, 114, 116, 118,112, 115}
-a.add(119) # it's mutable
+a.add(119) # it's mutableasasasasasasa
 
 print(a) # the second 112 has been removed
 
