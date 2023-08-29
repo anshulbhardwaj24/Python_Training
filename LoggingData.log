@@ -1,0 +1,9 @@
+2023-08-29 17:26:05,880 :: INFO :: <module> :: 15 :: A Info Logging Message
+2023-08-29 17:26:05,881 :: WARNING :: <module> :: 16 :: A Warning Logging Message
+2023-08-29 17:26:05,881 :: ERROR :: <module> :: 17 :: An Error Logging Message
+2023-08-29 17:26:05,881 :: CRITICAL :: <module> :: 18 :: A Critical Logging Message
+2023-08-29 17:26:05,881 :: INFO :: main :: 47 :: Add: 20 + 2 = 22
+2023-08-29 17:26:05,881 :: INFO :: main :: 50 :: Sub: 20 - 2 = 18
+2023-08-29 17:26:05,881 :: INFO :: main :: 53 :: Mul: 20 * 2 = 40
+2023-08-29 17:26:05,881 :: INFO :: main :: 56 :: Div: 20 / 2 = 10.0
+2023-08-29 17:26:05,881 :: INFO :: main :: 59 :: Exp: 20 ** 2 = 400
