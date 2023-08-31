@@ -1,14 +1,8 @@
 import logging
 
-with open('E:\Celebal Python Training\LoggingData.log','r') as f:
-    print(f.readlines())
-
 # logging.basicConfig(level = logging.INFO, filename = 'LoggingData.log', filemode = 'w')
 logging.basicConfig(format='%(asctime)s :: %(levelname)s :: %(funcName)s :: %(lineno)d \
 :: %(message)s', level = logging.INFO,filename = 'LoggingData.log', filemode = 'w')
-
-with open('E:\Celebal Python Training\LoggingData.log','r') as f:
-    print(f.readlines())
 
 logging.debug("A Debug Logging Message")
 logging.info("A Info Logging Message")
